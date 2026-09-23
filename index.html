@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f05a33">
+  <meta name="description" content="موقع ثابت صغير لتجربة النشر من GitHub وGitLab على استضافة IT Plus المجانية.">
+  <title>تجربة النشر | IT Plus</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">انتقل للمحتوى</a>
+  <header class="site-header">
+    <div class="shell header-inner">
+      <a class="brand" href="#top" aria-label="IT Plus — أعلى الصفحة"><span class="brand-mark" aria-hidden="true">+</span><span>IT <b>PLUS</b></span></a>
+      <nav aria-label="القائمة الرئيسية"><a href="#features">المميزات</a><a href="#test">اختبر الصفحة</a></nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero shell" id="top" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <span class="eyebrow"><span class="pulse" aria-hidden="true"></span> مشروع تجريبي ثابت</span>
+        <h1 id="hero-title">موقعك جاهز للظهور <span>على الإنترنت.</span></h1>
+        <p>هذه صفحة صغيرة لتجربة نشر الملفات الجاهزة من مستودع عام على GitHub أو GitLab. إذا ظهرت لك هذه الصفحة بألوانها وتفاعلها، فالنشر يعمل كما ينبغي.</p>
+        <div class="hero-actions"><a class="button button-primary" href="#test">جرّب التفاعل <span aria-hidden="true">↗</span></a><a class="button button-light" href="#features">تعرّف على الاختبار</a></div>
+      </div>
+      <div class="preview" aria-label="رسم توضيحي لصفحة منشورة">
+        <div class="preview-top"><span></span><span></span><span></span><small>my-site · live</small></div>
+        <div class="preview-body"><span class="preview-badge">✓ تم النشر</span><div class="preview-line wide"></div><div class="preview-line"></div><div class="preview-line short"></div><div class="preview-cards"><i></i><i></i><i></i></div></div>
+      </div>
+    </section>
+
+    <section class="section section-soft" id="features" aria-labelledby="features-title"><div class="shell">
+      <div class="section-head"><span class="eyebrow">ما الذي تختبره؟</span><h2 id="features-title">أربع إشارات واضحة لنجاح النشر</h2></div>
+      <div class="cards">
+        <article class="card"><span class="card-icon">01</span><h3>صفحة HTML</h3><p>ظهور المحتوى يعني أن ملف <code>index.html</code> أصبح متاحًا من عنوان موقعك.</p></article>
+        <article class="card"><span class="card-icon">02</span><h3>تصميم CSS</h3><p>الألوان والتنسيق وتغيّر شكل الصفحة على الموبايل تثبت وصول ملف التنسيق.</p></article>
+        <article class="card"><span class="card-icon">03</span><h3>تفاعل JavaScript</h3><p>زر الاختبار في الأسفل يغيّر حالة الصفحة مباشرة من المتصفح، بلا خادم بناء.</p></article>
+        <article class="card"><span class="card-icon">04</span><h3>أيقونة SVG</h3><p>علامة التبويب الصغيرة تتحقق من تحميل ملف صورة مستقل من المستودع.</p></article>
+      </div>
+    </div></section>
+
+    <section class="section shell" id="test" aria-labelledby="test-title"><div class="test-panel">
+      <div><span class="eyebrow">تجربة سريعة</span><h2 id="test-title">هل ملفات الصفحة كلها تعمل؟</h2><p>اضغط الزر. إذا تغيّرت الرسالة والعدد، فإن JavaScript يعمل مع HTML وCSS بعد النشر.</p></div>
+      <div class="test-action"><button class="button button-primary" id="test-button" type="button">اختبر الآن</button><p class="result" id="test-result" role="status" aria-live="polite">لم يبدأ الاختبار بعد.</p></div>
+    </div></section>
+  </main>
+
+  <footer class="site-footer"><div class="shell footer-inner"><span>IT PLUS · مشروع تجربة للاستضافة الثابتة</span><span>HTML + CSS + JavaScript فقط</span></div></footer>
+</body>
+</html>
